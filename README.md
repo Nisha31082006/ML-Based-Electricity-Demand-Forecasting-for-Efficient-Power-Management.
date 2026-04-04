@@ -1,10 +1,10 @@
-#ML-Based Electricity Demand Forecasting
-##📌 Project Description
+ML-Based Electricity Demand Forecasting
+📌 Project Description
 
 This project focuses on predicting electricity demand using machine learning techniques based on historical energy consumption and weather data.
 Accurate forecasting helps improve power management and reduces energy wastage.
 
-##🎯 Objectives
+🎯 Objectives
 Predict electricity demand using machine learning models
 Analyze the impact of weather conditions on energy consumption
 Improve efficiency in electricity usage and planning
@@ -15,7 +15,7 @@ NumPy
 Scikit-learn
 Matplotlib
 Google Colab
-##📊 Dataset
+📊 Dataset
 
 The dataset used in this project is taken from Kaggle:
 
@@ -24,29 +24,19 @@ The dataset used in this project is taken from Kaggle:
 Contains 4 years of hourly data on electricity consumption, generation, prices, and weather
 Includes data such as temperature, humidity, wind speed, and energy usage
 Useful for time-series forecasting and energy analysis
-##🔄 Workflow
+🔄 Workflow
 Data Collection
 Data Preprocessing
 Feature Selection
 Model Training
 Model Evaluation
 Prediction
-##🚀 How to Run
+🚀 How to Run
 Open the notebook in Google Colab
 Upload dataset or use provided dataset folder
 Run all cells step-by-step
 View predictions and results
-##📈 Output
+📈 Output
 Predicts electricity demand based on input features
 Helps in efficient energy usage planning
-##📁 Project Structure
 
-ML-Based-Electricity-Demand-Forecasting/
-│
-├── ML_Project.ipynb
-├── README.md
-├── dataset/
-│ ├── energy_dataset.csv
-│ └── weather_features.csv
-##📎 Project Link
-ML-Based-Electricity-Demand-Forecasting-for-Efficient-Power-Management.
