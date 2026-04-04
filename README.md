@@ -152,7 +152,7 @@ Apriori is not used for prediction; it is used only for finding patterns.
 ---
 
 ## 👩‍💻 Team Members
-SRUTHI R 
+SRUTHI R ,
 THARSINIJEYASIHA V
 
 
