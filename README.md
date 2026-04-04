@@ -16,7 +16,8 @@ This project uses **Machine Learning and Deep Learning techniques** to analyze h
 - Predict electricity load using regression models  
 - Classify electricity load into Low, Medium, High categories  
 - Compare multiple ML algorithms  
-- Identify the best-performing model  
+- Identify the best-performing model
+- Visualize predictions and performance metrics
 
 ---
 
@@ -49,7 +50,11 @@ This project uses **Machine Learning and Deep Learning techniques** to analyze h
 - Merged energy and weather datasets  
 - Handled missing values  
 - Created lag features  
-- Applied normalization  
+- Applied normalization
+
+## Visualization & Notebook Structure:
+- Comparison graphs for model predictions
+Clearly separated sections for preprocessing, regression, classification, clustering, and ANN
 
 ---
 
@@ -72,7 +77,6 @@ This project uses **Machine Learning and Deep Learning techniques** to analyze h
 ### 🔹 Deep Learning
 - Artificial Neural Network (ANN)
 
----
 
 ## 📈 Evaluation Metrics
 
