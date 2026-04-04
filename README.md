@@ -1,5 +1,9 @@
 # ⚡ Electricity Load Analysis and Prediction using Machine Learning
 
+https://colab.research.google.com/drive/1Q1n2PdmJfvIzGEtpME9vN6TNziB3aRli
+
+---
+
 ## 📌 Project Overview
 Electricity demand varies continuously based on time, weather conditions, and energy generation sources. Accurate prediction of electricity load is essential for efficient power generation planning, avoiding power shortages, and ensuring effective energy management.
 
@@ -11,17 +15,16 @@ This project uses **Machine Learning and Deep Learning techniques** to analyze h
 - Preprocess and integrate energy and weather datasets  
 - Predict electricity load using regression models  
 - Classify electricity load into Low, Medium, High categories  
-- Implement and compare multiple ML algorithms  
-- Apply different train-test splitting methods  
+- Compare multiple ML algorithms  
 - Identify the best-performing model  
 
 ---
 
 ## 📊 Dataset
 - Source: Kaggle  
-- Link: https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather
+- Link: https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather  
 
-### Dataset Description
+### Dataset Details
 - Type: Time-series tabular data  
 - Records: ~35,000+  
 - Features: ~10–15 selected features  
@@ -32,7 +35,7 @@ This project uses **Machine Learning and Deep Learning techniques** to analyze h
 - Wind Speed  
 - Cloud Coverage  
 - Energy generation sources  
-- Lag features and rolling averages  
+- Lag and rolling features  
 
 ### Target Variables
 - Regression: `total_load_actual`  
@@ -42,29 +45,29 @@ This project uses **Machine Learning and Deep Learning techniques** to analyze h
 
 ## ⚙️ Data Preprocessing
 - Selected relevant features  
-- Converted time column to datetime  
+- Converted time to datetime  
 - Merged energy and weather datasets  
-- Handled missing values (forward fill)  
-- Created lag features (lag-1, lag-24)  
-- Applied normalization (Min-Max Scaling)  
+- Handled missing values  
+- Created lag features  
+- Applied normalization  
 
 ---
 
 ## 🤖 Models Implemented
 
-### 🔹 Regression Models
+### 🔹 Regression
 - Linear Regression  
 - Decision Tree Regressor  
 - Random Forest Regressor  
-- Support Vector Regression (SVR)  
+- SVR  
 - KNN Regressor  
 
-### 🔹 Classification Models
+### 🔹 Classification
 - Naive Bayes  
 - Decision Tree  
 - Random Forest  
-- Support Vector Machine (SVM)  
-- K-Nearest Neighbours (KNN)  
+- SVM  
+- KNN  
 
 ### 🔹 Deep Learning
 - Artificial Neural Network (ANN)
@@ -88,68 +91,36 @@ This project uses **Machine Learning and Deep Learning techniques** to analyze h
 
 ---
 
-## 🔍 Train-Test Splitting Methods
-
-### Regression
-- Manual Time-Series Split  
-- Percentage Split  
-- TimeSeriesSplit (Best)
-
-### Classification
-- Random Split  
-- Stratified Split  
-- K-Fold  
-- Stratified K-Fold  
-
----
-
-## 📊 Results & Comparison
-- Random Forest achieved the highest performance among all models  
+## 📊 Results
+- Random Forest achieved the highest performance  
 - ANN performed well but required more tuning  
-- Decision Tree and KNN showed moderate performance  
-- SVM and Naive Bayes gave comparatively lower performance  
+- Other models showed moderate performance  
 
 ---
 
 ## 🧠 Deep Learning vs Machine Learning
-- ANN used for capturing complex patterns  
-- Random Forest outperformed ANN for tabular data  
+- ANN captures complex patterns  
+- Random Forest performed better for tabular data  
 - Final model selected: **Random Forest**
 
 ---
 
 ## 🔗 Association Rule Mining
 - Apriori algorithm used for pattern discovery  
-- Identified relationships between weather and electricity load  
+- Found relationships between weather and electricity load  
 
-### Note:
-Apriori is not used for prediction; it is used only for finding patterns.
-
----
-
-## 🏆 Final Conclusion
-- Random Forest is the best model for this dataset  
-- Provides highest accuracy and stability  
-- Suitable for tabular data and reduces overfitting  
-- ANN used for comparison but not selected as final model  
+> Note: Apriori is not used for prediction, only for pattern analysis.
 
 ---
 
-## 🚀 Future Enhancements
-- Implement LSTM for time-series forecasting  
-- Add more features (holidays, seasonal data)  
-- Improve classification categories  
-- Deploy as web application or dashboard  
+## 🏆 Conclusion
+- Random Forest is the best-performing model  
+- Provides high accuracy and stability  
+- Suitable for electricity load prediction  
 
 ---
 
-## 📌 Applications
-- Power grid management  
-- Electricity demand monitoring  
-- Energy distribution planning  
-- Smart grid systems  
 
----
 
 ## 👩‍💻 Team Members
 SRUTHI R ,
