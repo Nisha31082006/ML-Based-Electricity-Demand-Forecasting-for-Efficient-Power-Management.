@@ -1,5 +1,5 @@
 ## ⚡ Electricity Load Prediction using Machine Learning & Deep Learning
-##  Colab Link
+##  🔗Colab Link
 
 https://colab.research.google.com/drive/1Q1n2PdmJfvIzGEtpME9vN6TNziB3aRli
 
@@ -19,14 +19,14 @@ Visualize predictions and performance metrics
 
 ## 📊 Dataset
 Source: Kaggle
-## Link: https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather
+### Link: https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather
 
-## Dataset Details
+### Dataset Details
 Type: Time-series tabular data
 Records: ~35,000+
 Features: ~10–15 selected features
 
-## Features Used
+### Features Used
 Temperature
 Humidity
 Wind Speed
@@ -34,7 +34,7 @@ Cloud Coverage
 Energy generation sources
 Lag and rolling features
 
-## Target Variables
+### Target Variables
 Regression: total_load_actual
 Classification: Load Category (Low / Medium / High)
 
@@ -48,30 +48,34 @@ Feature scaling using StandardScaler
 Converted data to categorical (for Apriori)
 
 ## 🤖 Machine Learning Models
-## 🔹 Regression
+### 🔹 Regression
 Linear Regression
 Decision Tree Regressor
 Random Forest Regressor
 SVR
 KNN Regressor
-## 🔹 Classification
-Naive Bayes
-Decision Tree
-Random Forest ⭐ (Best Model)
-SVM
-KNN
-## 📈 Evaluation Metrics
+
+### 📈 Evaluation Metrics
 Regression
 R² Score
 MAE
 MSE
 RMSE
-## Classification
+
+### 🔹 Classification
+Naive Bayes
+Decision Tree
+Random Forest ⭐ (Best Model)
+SVM
+KNN
+
+### Classification
 Accuracy
 Precision
 Recall
 F1-Score
 Confusion Matrix
+
 ## 🧠 Deep Learning Model (ANN)
 Input Layer
 Hidden Layers (ReLU Activation)
@@ -84,53 +88,53 @@ Loss Function: Categorical Crossentropy
 K-Means (Elbow Method)
 Hierarchical Clustering (Dendrogram)
 DBSCAN  (Best based on metrics)
-## Evaluation Metrics
+### Evaluation Metrics
 Silhouette Score
 Davies-Bouldin Index
+
 ## 🔗 Association Rule Mining (Apriori)
 Generated frequent itemsets
 Identified relationships between features
-## Metrics used:
+### Metrics used:
 Support
 Confidence
 Lift
-
 Used only for pattern analysis (not for prediction)
 
 ## 🧠 Recommendation System
 
 A simple rule-based recommendation system:
-
 High Load → Reduce electricity usage
 Medium Load → Use efficiently
 Low Load → Normal usage
+
 ## 🌐 Web Application
-
 A user-friendly web application is developed using Streamlit.
-
-## 🔹 Features
-## User Inputs:
+### 🔹 Features
+### User Inputs:
 Temperature
 Humidity
 Wind Speed
-## Outputs:
+### Outputs:
 Predicted Load (Low / Medium / High)
 Recommendation message
-
- Provides real-time prediction using trained model
+Provides real-time prediction using trained model
 
 ## 📊 Results
 Random Forest achieved the highest performance
 ANN achieved high accuracy (~94%)
 Other models showed moderate performance
+
 ## 🧠 Machine Learning vs Deep Learning
 ANN captures complex non-linear patterns
 Random Forest performs better for tabular data
 Final model selected: Random Forest
+
 ## ⚙️ Project Pipeline
 Data Collection → Preprocessing → Feature Scaling → 
 Clustering → ML Models → Deep Learning (ANN) → 
 Model Comparison → Recommendation System → Web App
+
 ## ▶️ How to Run the Project
 🔹 Clone Repository
 git clone <your-repo-link>
@@ -141,6 +145,7 @@ Open .ipynb file in Jupyter Notebook or Google Colab
 Run all cells
 🔹 Run Web Application
 streamlit run app.py
+
 ## 📦 Dependencies
 Python
 NumPy
@@ -150,13 +155,13 @@ TensorFlow / Keras
 Matplotlib
 mlxtend
 Streamlit
+
 ## 🏁 Final Conclusion
 DBSCAN performed best for clustering
 ANN showed strong deep learning performance
 Apriori revealed useful patterns
 Random Forest achieved the best overall accuracy
-
-##  Final Model Selected: Random Forest
+###  Final Model Selected: Random Forest
 
 ## 👩‍💻 Team Members
 SRUTHI R
