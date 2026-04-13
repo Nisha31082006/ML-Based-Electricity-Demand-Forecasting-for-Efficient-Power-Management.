@@ -10,8 +10,8 @@ Electricity demand varies continuously based on time, weather conditions, and en
 This project uses Machine Learning and Deep Learning techniques to analyze historical energy and weather data, predict electricity demand, and classify load levels.
 
 ## 🎯 Objectives
--Preprocess and integrate energy and weather datasets
--Predict electricity load using regression models
+- Preprocess and integrate energy and weather datasets
+- Predict electricity load using regression models
 -Classify electricity load into Low, Medium, High categories
 -Compare multiple ML algorithms
 -Identify the best-performing model
