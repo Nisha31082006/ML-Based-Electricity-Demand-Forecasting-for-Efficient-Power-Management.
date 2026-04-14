@@ -1,168 +1,248 @@
-## ⚡ Electricity Load Prediction using Machine Learning & Deep Learning
-##  🔗Colab Link
+# ⚡ Smart Electricity Demand Prediction System
+
+🚀 Built using Machine Learning + Deep Learning + Streamlit
+
+---
+
+## 🔗 Live Demo
+
+⚠️ Currently running locally
+Run using:
+
+```bash
+streamlit run app.py
+```
+
+## 🔗 Colab Notebook
 
 https://colab.research.google.com/drive/1Q1n2PdmJfvIzGEtpME9vN6TNziB3aRli
 
+---
+
 ## 📌 Project Overview
 
-Electricity demand varies continuously based on time, weather conditions, and energy generation sources. Accurate prediction of electricity load is essential for efficient power generation planning, avoiding power shortages, and ensuring effective energy management.
+Electricity demand varies continuously based on weather conditions, time, and energy generation sources. Accurate prediction of electricity load is essential for efficient power management and avoiding power shortages.
 
-This project uses Machine Learning and Deep Learning techniques to analyze historical energy and weather data, predict electricity demand, and classify load levels.
+This project uses **Machine Learning and Deep Learning techniques** to:
+
+* Predict electricity demand
+* Classify load levels (Low / Medium / High)
+* Provide smart recommendations
+* Build a real-time prediction web application
+
+---
 
 ## 🎯 Objectives
-- Preprocess and integrate energy and weather datasets
-- Predict electricity load using regression models
-- Classify electricity load into Low, Medium, High categories
-- Compare multiple ML algorithms
-- Identify the best-performing model
-- Visualize predictions and performance metrics
+
+* Preprocess and merge energy & weather datasets
+* Predict electricity load using regression
+* Classify electricity demand into categories
+* Compare multiple ML models
+* Identify the best-performing model
+* Develop a user-friendly web application
+
+---
 
 ## 📊 Dataset
-Source: Kaggle
-### Link: https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather
+
+**Source:** Kaggle
+https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather
 
 ### Dataset Details
-- Type: Time-series tabular data
-- Records: ~35,000+
-- Features: ~10–15 selected features
+
+* Type: Time-series tabular data
+* Records: ~35,000+
+* Features: Weather + energy generation
 
 ### Features Used
-- Temperature
-- Humidity
-- Wind Speed
-- Cloud Coverage
-- Energy generation sources
-- Lag and rolling features
+
+* Temperature
+* Humidity
+* Wind Speed
+* Energy-related attributes
 
 ### Target Variables
-- Regression: total_load_actual
-- Classification: Load Category (Low / Medium / High)
+
+* Regression → `total_load_actual`
+* Classification → Load Category (Low / Medium / High)
+
+---
 
 ## ⚙️ Data Preprocessing
-- Selected relevant features
-- Converted time to datetime
-- Merged energy and weather datasets
-- Removed missing values
-- Encoded categorical variables
-- Feature scaling using StandardScaler
-- Converted data to categorical (for Apriori)
+
+* Datetime conversion
+* Dataset merging (Energy + Weather)
+* Handling missing values
+* Feature selection
+* Feature scaling
+* Creation of categorical labels
+
+---
 
 ## 🤖 Machine Learning Models
-### 🔹 Regression
-- Linear Regression
-- Decision Tree Regressor
-- Random Forest Regressor
-- SVR
-- KNN Regressor
 
-### 📈 Evaluation Metrics
-- Regression
-- R² Score
-- MAE
-- MSE
-- RMSE
+### 🔹 Regression
+
+* Linear Regression
+* Decision Tree Regressor
+* Random Forest Regressor ⭐ (Best)
+* SVR
+* KNN Regressor
 
 ### 🔹 Classification
-- Naive Bayes
-- Decision Tree
-- Random Forest  (Best Model)
-- SVM
-- KNN
 
-### Classification
-- Accuracy
-- Precision
-- Recall
-- F1-Score
-- Confusion Matrix
+* Naive Bayes
+* Decision Tree
+* Random Forest ⭐ (Best)
+* SVM
+* KNN
+
+### 📈 Evaluation Metrics
+
+* Regression → R² Score, MAE, RMSE
+* Classification → Accuracy, Precision, Recall, F1-score
+
+---
 
 ## 🧠 Deep Learning Model (ANN)
-- Input Layer
-- Hidden Layers (ReLU Activation)
-- Output Layer (Softmax)
-- Optimizer: Adam
-- Loss Function: Categorical Crossentropy
-- Achieved ~94% accuracy
+
+* Input Layer
+* Hidden Layers (ReLU Activation)
+* Output Layer (Softmax)
+* Optimizer: Adam
+* Loss: Categorical Crossentropy
+* Achieved ~94% accuracy
+
+---
 
 ## 🔍 Clustering Techniques
-- K-Means (Elbow Method)
-- Hierarchical Clustering (Dendrogram)
-- DBSCAN  (Best based on metrics)
-### Evaluation Metrics
-- Silhouette Score
-- Davies-Bouldin Index
+
+* K-Means
+* Hierarchical Clustering
+* DBSCAN ⭐ (Best)
+
+---
 
 ## 🔗 Association Rule Mining (Apriori)
-- Generated frequent itemsets
-- Identified relationships between features
-### Metrics used:
-- Support
-- Confidence
-- Lift
-- Used only for pattern analysis (not for prediction)
+
+* Generated frequent itemsets
+* Discovered relationships between features
+
+### Metrics Used
+
+* Support
+* Confidence
+* Lift
+
+---
 
 ## 🧠 Recommendation System
 
-- A simple rule-based recommendation system:
-- High Load → Reduce electricity usage
-- Medium Load → Use efficiently
-- Low Load → Normal usage
+A rule-based recommendation system is implemented:
 
-## 🌐 Web Application
-- A user-friendly web application is developed using Streamlit.
+* High Load → Reduce electricity usage
+* Medium Load → Use efficiently
+* Low Load → Best time for heavy usage
+
+---
+
+## 🌐 Web Application (Streamlit)
+
 ### 🔹 Features
-### User Inputs:
-- Temperature
-- Humidity
-- Wind Speed
-### Outputs:
-- Predicted Load (Low / Medium / High)
-- Recommendation message
-- Provides real-time prediction using trained model
+
+* Regression Prediction
+* Classification Prediction
+* ANN Prediction
+* Apriori Logic
+* Real-time Weather API integration
+* 📊 Graph Visualization
+* 📍 Prediction History
+* 📥 Download Report
+* 📈 Model Comparison
+* 🏆 Best Model Identification
+
+---
 
 ## 📊 Results
-- Random Forest achieved the highest performance
-- ANN achieved high accuracy (~94%)
-- Other models showed moderate performance
 
-## 🧠 Machine Learning vs Deep Learning
-- ANN captures complex non-linear patterns
-- Random Forest performs better for tabular data
-- Final model selected: Random Forest
+* Random Forest achieved the best performance
+* ANN achieved high accuracy (~94%)
+* Other models showed moderate performance
+
+---
+
+## 🧠 ML vs Deep Learning Insight
+
+* Random Forest → Best for tabular data
+* ANN → Captures complex non-linear patterns
+
+👉 **Final Selected Model: Random Forest**
+
+---
 
 ## ⚙️ Project Pipeline
-- Data Collection → Preprocessing → Feature Scaling → 
-Clustering → ML Models → Deep Learning (ANN) → 
-Model Comparison → Recommendation System → Web App
+
+Data Collection → Preprocessing → Feature Engineering →
+Clustering → ML Models → ANN → Model Comparison →
+Recommendation System → Web Application
+
+---
 
 ## ▶️ How to Run the Project
- ### 🔹 Clone Repository
-git clone <your-repo-link>
+
+### 🔹 Clone Repository
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+
 ### 🔹 Install Dependencies
+
+```bash
 pip install numpy pandas scikit-learn tensorflow mlxtend matplotlib streamlit
-### 🔹 Run Notebook
-Open .ipynb file in Jupyter Notebook or Google Colab
-Run all cells
-### 🔹 Run Web Application
+```
+
+### 🔹 Run Application
+
+```bash
 streamlit run app.py
+```
+
+---
 
 ## 📦 Dependencies
-- Python
-- NumPy
-- Pandas
-- Scikit-learn
-- TensorFlow / Keras
-- Matplotlib
-- mlxtend
-- Streamlit
+
+* Python
+* NumPy
+* Pandas
+* Scikit-learn
+* TensorFlow / Keras
+* Matplotlib
+* mlxtend
+* Streamlit
+
+---
 
 ## 🏁 Final Conclusion
-- DBSCAN performed best for clustering
-- ANN showed strong deep learning performance
-- Apriori revealed useful patterns
-- Random Forest achieved the best overall accuracy
-###  Final Model Selected: Random Forest
+
+* DBSCAN performed best for clustering
+* ANN showed strong deep learning performance
+* Apriori revealed useful patterns
+* Random Forest achieved the best overall performance
+
+👉 **Final Model Selected: Random Forest**
+
+---
+
+## 📌 Note
+
+Dataset files are not uploaded due to size limitations.
+Please download from Kaggle and place in project folder before running.
+
+---
 
 ## 👩‍💻 Team Members
-- SRUTHI R
-- THARSINIJEYASIHA V
+
+* SRUTHI R
+* THARSINIJEYASIHA V
