@@ -30,7 +30,7 @@ This project uses **Machine Learning and Deep Learning techniques** to:
 * Provide smart recommendations
 * Build a real-time prediction web application
 
----
+
 
 ## 🎯 Objectives
 
@@ -41,7 +41,7 @@ This project uses **Machine Learning and Deep Learning techniques** to:
 * Identify the best-performing model
 * Develop a user-friendly web application
 
----
+
 
 ## 📊 Dataset
 
@@ -66,7 +66,7 @@ https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-pric
 * Regression → `total_load_actual`
 * Classification → Load Category (Low / Medium / High)
 
----
+
 
 ## ⚙️ Data Preprocessing
 
@@ -77,7 +77,7 @@ https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-pric
 * Feature scaling
 * Creation of categorical labels
 
----
+
 
 ## 🤖 Machine Learning Models
 
@@ -102,7 +102,7 @@ https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-pric
 * Regression → R² Score, MAE, RMSE
 * Classification → Accuracy, Precision, Recall, F1-score
 
----
+
 
 ## 🧠 Deep Learning Model (ANN)
 
@@ -113,7 +113,7 @@ https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-pric
 * Loss: Categorical Crossentropy
 * Achieved ~94% accuracy
 
----
+
 
 ## 🔍 Clustering Techniques
 
@@ -121,7 +121,6 @@ https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-pric
 * Hierarchical Clustering
 * DBSCAN ⭐ (Best)
 
----
 
 ## 🔗 Association Rule Mining (Apriori)
 
@@ -134,7 +133,7 @@ https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-pric
 * Confidence
 * Lift
 
----
+
 
 ## 🧠 Recommendation System
 
@@ -144,7 +143,7 @@ A rule-based recommendation system is implemented:
 * Medium Load → Use efficiently
 * Low Load → Best time for heavy usage
 
----
+
 
 ## 🌐 Web Application (Streamlit)
 
@@ -161,7 +160,7 @@ A rule-based recommendation system is implemented:
 * 📈 Model Comparison
 * 🏆 Best Model Identification
 
----
+
 
 ## 📊 Results
 
@@ -169,7 +168,7 @@ A rule-based recommendation system is implemented:
 * ANN achieved high accuracy (~94%)
 * Other models showed moderate performance
 
----
+
 
 ## 🧠 ML vs Deep Learning Insight
 
@@ -178,7 +177,7 @@ A rule-based recommendation system is implemented:
 
 👉 **Final Selected Model: Random Forest**
 
----
+
 
 ## ⚙️ Project Pipeline
 
@@ -186,7 +185,7 @@ Data Collection → Preprocessing → Feature Engineering →
 Clustering → ML Models → ANN → Model Comparison →
 Recommendation System → Web Application
 
----
+
 
 ## ▶️ How to Run the Project
 
@@ -209,7 +208,7 @@ pip install numpy pandas scikit-learn tensorflow mlxtend matplotlib streamlit
 streamlit run app.py
 ```
 
----
+
 
 ## 📦 Dependencies
 
@@ -222,7 +221,7 @@ streamlit run app.py
 * mlxtend
 * Streamlit
 
----
+
 
 ## 🏁 Final Conclusion
 
@@ -233,7 +232,7 @@ streamlit run app.py
 
 👉 **Final Model Selected: Random Forest**
 
----
+
 
 ## 📌 Note
 
