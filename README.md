@@ -2,7 +2,7 @@
 
 🚀 Built using Machine Learning + Deep Learning + Streamlit
 
----
+
 
 ## 🔗 Live Demo
 
@@ -17,7 +17,7 @@ streamlit run app.py
 
 https://colab.research.google.com/drive/1Q1n2PdmJfvIzGEtpME9vN6TNziB3aRli
 
----
+
 
 ## 📌 Project Overview
 
